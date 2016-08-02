@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/shaunchua/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_afbe893102eca5dc692a81164b5d00140c136a9d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="685b8fcc7822e5450f81d9757a80647861e9e833">
+        <dex dex="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_26525e09b0a6afb4b92b9e99efcf087d8150de50/classes.dex" />
+    </item>
+
+</items>
