@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 112,
+                        "endOffset": 163
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml",
         "map": [
             {
@@ -12,6 +36,30 @@
                 },
                 "from": {
                     "file": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 112,
+                        "endOffset": 163
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

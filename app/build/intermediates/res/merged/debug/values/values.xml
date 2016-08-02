@@ -124,6 +124,7 @@
     <declare-styleable name="CollapsingToolbarLayout_Layout"><attr name="layout_collapseMode"><enum name="none" value="0"/><enum name="pin" value="1"/><enum name="parallax" value="2"/></attr><attr format="float" name="layout_collapseParallaxMultiplier"/></declare-styleable>
     <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
+    <declare-styleable name="ConstraintLayout_Layout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="dimension" name="relativeBegin"/><attr format="dimension" name="relativeEnd"/><attr format="integer" name="relativePercent"/><attr format="integer" name="containerItemSkip"/><attr format="reference" name="layout_constraintLeft_toLeftOf"/><attr format="reference" name="layout_constraintLeft_toRightOf"/><attr format="reference" name="layout_constraintRight_toLeftOf"/><attr format="reference" name="layout_constraintRight_toRightOf"/><attr format="reference" name="layout_constraintTop_toTopOf"/><attr format="reference" name="layout_constraintTop_toBottomOf"/><attr format="reference" name="layout_constraintBottom_toTopOf"/><attr format="reference" name="layout_constraintBottom_toBottomOf"/><attr format="reference" name="layout_constraintBaseline_toBaselineOf"/><attr format="reference" name="layout_constraintCenterX_toCenterX"/><attr format="reference" name="layout_constraintCenterY_toCenterY"/><attr format="reference" name="layout_constraintStart_toEndOf"/><attr format="reference" name="layout_constraintStart_toStartOf"/><attr format="reference" name="layout_constraintEnd_toStartOf"/><attr format="reference" name="layout_constraintEnd_toEndOf"/><attr format="float" name="layout_constraintHorizontal_bias"/><attr format="float" name="layout_constraintVertical_bias"/><attr format="integer" name="layout_constraintLeft_creator"/><attr format="integer" name="layout_constraintTop_creator"/><attr format="integer" name="layout_constraintRight_creator"/><attr format="integer" name="layout_constraintBottom_creator"/><attr format="integer" name="layout_constraintBaseline_creator"/><attr format="string" name="layout_constraintDimensionRatio"/><attr format="dimension" name="layout_editor_absoluteX"/><attr format="dimension" name="layout_editor_absoluteY"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="reference" name="statusBarBackground"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
@@ -293,9 +294,17 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
@@ -345,6 +354,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
     <string name="action_show_access_token_title">Print Access Token</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -377,6 +387,8 @@
     <string name="fb_login_protocol_scheme">fbAPP_ID</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="messenger_send_button_text">Send</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
@@ -384,6 +396,7 @@
     <string name="prompt_password">Password (optional)</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_access_token">AccessTokenActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
     <string name="title_activity_show_access_token">ShowAccessTokenActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
