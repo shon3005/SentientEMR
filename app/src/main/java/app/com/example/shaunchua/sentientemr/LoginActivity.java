@@ -18,6 +18,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -79,6 +80,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private TextView info;
     private ImageView profileImgView;
     private LoginButton loginButton;
+    private Button mEmailSignInButton;
 
     private PrefUtil prefUtil;
     private IntentUtil intentUtil;
@@ -98,6 +100,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
+        setContentView(R.layout.activity_login);
+
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -110,11 +114,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
-        Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        mEmailSignInButton.setOnClickListener(new OnClickListener() {
+        mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        Log.d("debug","IN ONCREATE");
+        mEmailSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("debug","quicklistener");
                 attemptLogin();
+                Intent myIntent = new Intent(LoginActivity.this,NavigationActivity.class);
+                LoginActivity.this.startActivity(myIntent);
             }
         });
 
@@ -124,7 +132,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // more fb code
         callbackManager = CallbackManager.Factory.create();
 
-        setContentView(R.layout.activity_login);
+
 
         prefUtil = new PrefUtil(this);
         intentUtil = new IntentUtil(this);
@@ -285,9 +293,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      */
     private void attemptLogin() {
         if (mAuthTask != null) {
+            Log.d("debug", "entering function");
             return;
         }
-
+        Log.d("debug", "entering function");
         // Reset errors.
         mEmailView.setError(null);
         mPasswordView.setError(null);
@@ -474,6 +483,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             if (success) {
                 finish();
+
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
                 mPasswordView.requestFocus();

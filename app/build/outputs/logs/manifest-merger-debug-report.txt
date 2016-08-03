@@ -1,184 +1,184 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:2:1-63:12
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:2:1-63:12
 	package
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:3:5-52
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:6:5-71
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:6:22-68
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:8:5-72
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:8:22-69
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:8:22-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:9:5-67
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:11:5-61:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:28:5-37:19
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:customtabs:23.4.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:9:5-20
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:11:5-61:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:28:5-37:19
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:customtabs:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:14:9-41
 	android:supportsRtl
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:15:9-35
 	android:allowBackup
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:13:9-43
 	android:theme
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:16:9-40
 activity#app.com.example.shaunchua.sentientemr.LoginActivity
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:17:9-25:20
 	android:label
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:19:13-45
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:18:13-42
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:18:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:23:27-74
 activity#com.facebook.FacebookActivity
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:26:9-30:75
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:29:9-32:75
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:26:9-30:75
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:29:9-32:75
 	android:label
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:29:13-45
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:29:13-45
 	android:configChanges
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:28:13-96
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:28:13-96
 	android:theme
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:30:13-72
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:30:13-72
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:27:13-57
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:27:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:31:9-42:20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:33:9-36:20
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:31:9-42:20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:33:9-36:20
 	android:exported
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:33:13-36
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:32:13-58
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:32:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:34:13-41:29
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:34:13-41:29
 action#android.intent.action.VIEW
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:35:17-69
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:37:17-76
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:37:27-73
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:37:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:38:17-78
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:38:17-78
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:38:27-75
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:38:27-75
 data
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:40:17-75
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:40:17-75
 	android:scheme
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:40:23-72
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:40:23-72
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:44:9-46:55
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:44:9-46:55
 	android:value
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:46:13-52
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:46:13-52
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:45:13-58
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:45:13-58
 activity#app.com.example.shaunchua.sentientemr.AccessTokenActivity
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:48:9-56:20
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:48:9-56:20
 	android:label
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:50:13-64
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:50:13-64
 	android:parentActivityName
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:51:13-56
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:51:13-56
 	android:theme
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:52:13-56
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:49:13-48
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:49:13-48
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:53:13-55:49
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:53:13-55:49
 	android:value
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:55:17-46
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:55:17-46
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:54:17-63
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:54:17-63
 activity#app.com.example.shaunchua.sentientemr.NavigationActivity
-ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:57:9-60:68
+ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:57:9-60:68
 	android:label
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:59:13-62
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:59:13-62
 	android:theme
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:60:13-56
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:60:13-56
 	android:name
-		ADDED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml:58:13-47
+		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:58:13-47
 uses-sdk
-INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:design:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:customtabs:23.4.0] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:design:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:appcompat-v7:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:customtabs:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.1.1] /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml

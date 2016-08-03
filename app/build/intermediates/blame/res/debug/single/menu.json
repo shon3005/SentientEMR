@@ -1,34 +1,14 @@
 [
     {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/res/merged/debug/menu/navigation.xml",
-        "source": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/res/menu/navigation.xml"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
-        "source": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/res/menu/activity_navigation_drawer.xml"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
-        "source": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/src/main/res/menu/activity_navigation_drawer.xml"
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/navigation.xml"
     },
     {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/res/menu/menu_main.xml"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/src/main/res/menu/menu_main.xml"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/menu/menu_main.xml"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/build/intermediates/res/merged/debug/menu/navigation.xml",
-        "source": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/src/main/res/menu/navigation.xml"
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/activity_navigation_drawer.xml"
     }
 ]

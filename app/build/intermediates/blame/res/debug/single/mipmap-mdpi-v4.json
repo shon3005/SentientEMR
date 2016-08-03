@@ -1,17 +1,5 @@
 [
     {
-        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
-        "source": "/Users/Jasleen/Desktop/Github Dev/Sentient-EMR/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
-        "source": "/Users/Jasleen/Desktop/Github Dev/SentientEMR/app/src/main/res/mipmap-mdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
