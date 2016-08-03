@@ -133,6 +133,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         profileImgView = (ImageView) findViewById(R.id.profile_img);
         loginButton = (LoginButton) findViewById(R.id.login_button);
 
+        loginButton.setOnClickListener(new OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(LoginActivity.this, NavigationActivity.class));
+            }
+        });
+
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
