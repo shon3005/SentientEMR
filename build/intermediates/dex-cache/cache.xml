@@ -1,2 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_75fb2edd77939f107fc2589e900c16c443de500b.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.1.1_04189687d3f327975157c0468e8f5e76aa3a6e71.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.1.1_8378d8bbee9e95df78362ba97f5de6996560d70a.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-23.4.0_8689b9b95cb6251e2b6f602e91813d81a43207c2.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="7cb8f70e66bdc25ee66ab8351a4e7214b6517aa8">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.14.0_2d340a0524b44d1b0cc22b27b190e429b1f51164.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.1.1_d290b5a761b5112f60940a6f16903a0c26bd2b5f.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_6a4cd97898f5383275955416cbed7006fe06d147.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_ddd344558c4261265830b34af6d2a17b070ec26d.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Library/Android/sdk/extras/android/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha1/constraint-layout-solver-1.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="78d61c347aa5002119e3c17bffcbebf28fe07b0b">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha1_1bc6b73f9d7f1b49305d9b415940333a019e666b.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.1.1_f50103695af9176d7a0e0db2e91ea754b07af9b2.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/glide-3.7.0_a6eac64f30e043c9a7fda62a24781f40f0dae940.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_2f0ecde7c7546b1b018a92b58c8d0996ae5e777c.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.1.1/3af19f153122737b372622fa6c81dd11a1c6b999/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_d30fd0bbcbc5f652410104508d4111846c491fc9.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_2bb7604868ae0c40c4e987d7b05c9f6d3e35da70.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="ea579447f9afb1fbcb28e150e1cd4bfe7f56e75b">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha1_e11891a3b5872ec1431036693ef3a6db650589da.jar" />
+    </item>
+    <item
+        jar="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_b04331dde501d371f3bb6f47a52d205b0a2a9d0f.jar" />
+    </item>
+
+</items>
