@@ -4,38 +4,42 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="201362964514732"
-    token="-2292617469411586945"
-    verifier="COMPATIBLE" >
+    timestamp="225804147266603"
+    token="-2292617469411586945" >
 
     <task
         name="javac"
-        duration="527" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="871" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="25" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
-    <build timestamp="201281484590092" >
+    <build timestamp="224154250964713" >
         <artifact
             location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="201362964514732"
+        timestamp="225763466455902"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/reload-dex/debug/classes.dex"
+            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/builds/debug/225763466455902/classes.dex"
             type="RELOAD_DEX" />
+    </build>
+    <build timestamp="225804147266603" >
+        <artifact
+            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

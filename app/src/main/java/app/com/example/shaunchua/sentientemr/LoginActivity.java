@@ -18,7 +18,6 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -100,7 +99,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
-        setContentView(R.layout.activity_login);
+        //setContentView(R.layout.activity_login);
 
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -115,14 +114,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
 
         mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        Log.d("debug","IN ONCREATE");
+
         mEmailSignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("debug","quicklistener");
+
                 attemptLogin();
-                Intent myIntent = new Intent(LoginActivity.this,NavigationActivity.class);
-                LoginActivity.this.startActivity(myIntent);
             }
         });
 
@@ -293,10 +290,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      */
     private void attemptLogin() {
         if (mAuthTask != null) {
-            Log.d("debug", "entering function");
             return;
         }
-        Log.d("debug", "entering function");
         // Reset errors.
         mEmailView.setError(null);
         mPasswordView.setError(null);
@@ -473,7 +468,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
 
             // TODO: register the new account here.
-            return true;
+            return false;
         }
 
         @Override
@@ -483,6 +478,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
             if (success) {
                 finish();
+                Intent myIntent = new Intent(LoginActivity.this,NavigationActivity.class);
+                LoginActivity.this.startActivity(myIntent);
 
             } else {
                 mPasswordView.setError(getString(R.string.error_incorrect_password));
