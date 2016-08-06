@@ -4,12 +4,12 @@
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_white.png",
-        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_bubble_large_white.png"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_white.png",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_bubble_large_white.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
@@ -33,11 +33,11 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_close.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_close.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_close.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_button_send_round_shadow.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_button_send_round_shadow.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/messenger_button_send_round_shadow.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
@@ -61,15 +61,15 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png"
-    },
-    {
-        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
-        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_blue.png",
@@ -100,12 +100,12 @@
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
-        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
@@ -137,7 +137,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
@@ -161,7 +161,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_button_like_icon_selected.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_blue.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_bubble_large_blue.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/messenger_bubble_large_blue.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_48dp.png",
@@ -189,7 +189,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
@@ -209,7 +209,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_small_blue.png",
@@ -225,7 +225,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_favicon_white.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_favicon_white.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_favicon_white.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png",
@@ -237,7 +237,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png",
@@ -269,7 +269,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_send_icon_blue.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_button_send_icon_blue.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_button_send_icon_blue.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_close.png",
@@ -289,7 +289,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_white.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_bubble_large_white.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/messenger_bubble_large_white.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png",
@@ -317,7 +317,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_icon_white.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_button_icon_white.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_button_icon_white.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -341,7 +341,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
@@ -353,7 +353,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_send_icon_white.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_button_send_icon_white.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_button_send_icon_white.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
@@ -365,7 +365,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_icon_blue.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_button_icon_blue.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_button_icon_blue.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
@@ -389,11 +389,11 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_small_blue.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_bubble_small_blue.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/messenger_bubble_small_blue.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png",
@@ -469,7 +469,7 @@
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_small_white.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/res/drawable-xhdpi-v4/messenger_bubble_small_white.png"
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable-xhdpi-v4/messenger_bubble_small_white.png"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
