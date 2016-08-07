@@ -48,11 +48,11 @@ MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/P
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:28:5-37:19
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:28:5-37:19
 MERGED from [com.android.support:customtabs:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:9:5-20
 	android:label
@@ -83,7 +83,7 @@ ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/Sen
 		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:23:27-74
 activity#com.facebook.FacebookActivity
 ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:26:9-30:75
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:29:9-32:75
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:29:9-32:75
 	android:label
 		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:29:13-45
 	android:configChanges
@@ -94,7 +94,7 @@ MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/
 		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:27:13-57
 activity#com.facebook.CustomTabActivity
 ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:31:9-42:20
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:33:9-36:20
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:33:9-36:20
 	android:exported
 		ADDED from /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/AndroidManifest.xml:33:13-36
 	android:name
@@ -167,11 +167,11 @@ MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/P
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-vector-drawable:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
-MERGED from [com.facebook.android:facebook-android-sdk:4.14.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.0/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:cardview-v7:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.android:facebook-android-sdk:4.14.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:customtabs:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/customtabs/23.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:23.4.0] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:24.1.1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha1] /Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary

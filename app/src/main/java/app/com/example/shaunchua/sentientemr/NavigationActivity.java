@@ -2,9 +2,8 @@ package app.com.example.shaunchua.sentientemr;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -12,9 +11,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.facebook.Profile;
+import com.facebook.login.LoginResult;
 
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private ImageView profile_pic;
+    private String pictureUri;
+    private LoginResult loginResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +49,68 @@ public class NavigationActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        //Intent intent = getIntent();
+        Profile  profile = Profile.getCurrentProfile();
+        if (profile != null) {
+
+            //LoginResult loginResult;
+
+            String userID = loginResult.getAccessToken().getUserId();
+
+            //Toast.makeText(LoginActivity.this, profile.getName(), Toast.LENGTH_SHORT).show();
+            //pictureUri = profile.getProfilePictureUri(120, 120).toString();
+            //String userID = profile.getId();
+            String pictureUrl = "https://graph.facebook.com/" + userID + "/picture?type=large";
+            profile_pic=(ImageView)findViewById(R.id.profilePicture);
+            Glide.with(NavigationActivity.this)
+                    .load(pictureUrl)
+                    .into(profile_pic);
+            //profileName.setText(profile.getName());
+
+            /*mDrawer.getMenu().findItem(R.id.nav_myAccount).setVisible(false);
+            Bundle extra = getIntent().getExtras();
+            String email;
+            if (extra != null) {
+                email = extra.getString("email");
+                profileEmail.setText(email);
+                Toast.makeText(MainActivity.this, email, Toast.LENGTH_SHORT).show();
+            } else if (sessionManagerFacebook.isLoggedIn()) {
+                profileEmail.setText(userFacebook.get(SessionManagerFacebook.KEY_EMAIL));
+                Toast.makeText(MainActivity.this, userFacebook.get(SessionManagerFacebook.KEY_EMAIL), Toast.LENGTH_SHORT).show();
+
+            }*/
+
+        }
+
+
+        //Profile profile = Profile.getCurrentProfile();
+        //String userID = loginResult.getAccessToken().getUserId();
+        //ProfilePictureView profilePicture = (ProfilePictureView) findViewById(R.id.profilePicture);
+        //profilePicture.setProfileId(userID);
+        /* make the API call */
+
     }
+
+    /**
+     * Function loads the users facebook profile pic
+     *
+     *
+     */
+    /*public Bitmap getUserPic(String userID) {
+        String imageURL;
+        Bitmap bitmap = null;
+        //Log.d(TAG, "Loading Picture");
+        imageURL = "http://graph.facebook.com/"+userID+"/picture?type=small";
+        try {
+            bitmap = BitmapFactory.decodeStream((InputStream)new URL(imageURL).getContent());
+        } catch (Exception e) {
+            Log.d("TAG", "Loading Picture FAILED");
+            e.printStackTrace();
+        }
+        return bitmap;
+    }*/
+
 
     @Override
     public void onBackPressed() {
