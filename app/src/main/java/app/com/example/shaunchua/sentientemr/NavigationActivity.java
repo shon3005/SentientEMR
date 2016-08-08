@@ -1,9 +1,7 @@
 package app.com.example.shaunchua.sentientemr;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -11,11 +9,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
-import com.facebook.Profile;
+import com.facebook.FacebookSdk;
 import com.facebook.login.LoginResult;
 
 
@@ -30,22 +26,25 @@ public class NavigationActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        FacebookSdk.sdkInitialize(getApplicationContext());
 
+        //profile_pic = (ImageView) findViewById(R.id.imageView);
 
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
@@ -55,21 +54,22 @@ public class NavigationActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         //Intent intent = getIntent();
-        Profile  profile = Profile.getCurrentProfile();
-        if (profile != null) {
+        //String userId = intent.getStringExtra(loginResult.getAccessToken().getUserId());
+        //String pictureUrl = "https://graph.facebook.com/" + userId + "/picture?type=large";
+//        Profile  profile = Profile.getCurrentProfile();
+//
+//        if (profile != null) {
 
-            //LoginResult loginResult;
-
-            String userID = loginResult.getAccessToken().getUserId();
+//            String userID = loginResult.getAccessToken().getUserId();
 
             //Toast.makeText(LoginActivity.this, profile.getName(), Toast.LENGTH_SHORT).show();
             //pictureUri = profile.getProfilePictureUri(120, 120).toString();
             //String userID = profile.getId();
-            String pictureUrl = "https://graph.facebook.com/" + userID + "/picture?type=large";
-            profile_pic=(ImageView)findViewById(R.id.profilePicture);
-            Glide.with(NavigationActivity.this)
-                    .load(pictureUrl)
-                    .into(profile_pic);
+//            String pictureUrl = "https://graph.facebook.com/" + profile.getId() + "/picture?type=large";
+//
+//            Glide.with(NavigationActivity.this)
+//                    .load(pictureUrl)
+//                    .into(profile_pic);
             //profileName.setText(profile.getName());
 
             /*mDrawer.getMenu().findItem(R.id.nav_myAccount).setVisible(false);
@@ -85,7 +85,9 @@ public class NavigationActivity extends AppCompatActivity
 
             }*/
 
-        }
+//        } else {
+//            Log.d("picture", "Profile is null");
+//        }
 
 
         //Profile profile = Profile.getCurrentProfile();
@@ -114,7 +116,6 @@ public class NavigationActivity extends AppCompatActivity
         }
         return bitmap;
     }*/
-
 
     @Override
     public void onBackPressed() {

@@ -18,11 +18,11 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -86,6 +86,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     private CallbackManager callbackManager;
 
+    private String userId;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -138,39 +140,49 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         profileImgView = (ImageView) findViewById(R.id.profile_img);
         loginButton = (LoginButton) findViewById(R.id.login_button);
 
-        loginButton.setOnClickListener(new OnClickListener(){
-            public void onClick(View v){
-                startActivity(new Intent(LoginActivity.this, NavigationActivity.class));
-            }
-        });
+//        loginButton.setOnClickListener(new OnClickListener(){
+//            public void onClick(View v){
+//                Intent i = new Intent(LoginActivity.this, NavigationActivity.class);
+//                //i.putExtra("id", userId);
+//                startActivity(i);
+//            }
+//        });
 
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 Profile profile = Profile.getCurrentProfile();
+
                 info.setText(message(profile));
 
-                String userId = loginResult.getAccessToken().getUserId();
+                userId = loginResult.getAccessToken().getUserId();
+                Log.d("picture", userId);
                 String accessToken = loginResult.getAccessToken().getToken();
 
                 // save accessToken to SharedPreference
                 prefUtil.saveAccessToken(accessToken);
 
                 String profileImgUrl = "https://graph.facebook.com/" + userId + "/picture?type=large";
-
+                Log.d("picture", profileImgUrl.toString());
 
                 Glide.with(LoginActivity.this)
                         .load(profileImgUrl)
                         .into(profileImgView);
+
+                Intent i = new Intent(LoginActivity.this, NavigationActivity.class);
+//                //i.putExtra("id", userId);
+                startActivity(i);
             }
 
             @Override
             public void onCancel() {
+                Log.d("picture", "CANCEEEl");
                 info.setText("Login attempt cancelled.");
             }
 
             @Override
             public void onError(FacebookException e) {
+                Log.d("picture", "ERRRRRORRRR");
                 e.printStackTrace();
                 info.setText("Login attempt failed.");
             }
