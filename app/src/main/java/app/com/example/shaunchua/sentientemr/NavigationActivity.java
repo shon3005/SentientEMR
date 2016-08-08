@@ -7,20 +7,27 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.facebook.FacebookSdk;
+import com.facebook.Profile;
 import com.facebook.login.LoginResult;
+import com.facebook.login.widget.ProfilePictureView;
 
 
 public class NavigationActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private ImageView profile_pic;
+    //private ImageView profile_pic;
     private String pictureUri;
     private LoginResult loginResult;
+    private DrawerLayout mDrawerlayout;
+    private ProfilePictureView profile_pic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +35,7 @@ public class NavigationActivity extends AppCompatActivity
 
         FacebookSdk.sdkInitialize(getApplicationContext());
 
-        //profile_pic = (ImageView) findViewById(R.id.imageView);
+
 
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -50,26 +57,31 @@ public class NavigationActivity extends AppCompatActivity
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
+
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        View headerLayout = navigationView.getHeaderView(0);
+        //View headerLayout = navigationView.inflateHeaderView(R.layout.nav_header_navigation);
+        profile_pic = (ProfilePictureView) headerLayout.findViewById(R.id.profilePicture);
         //Intent intent = getIntent();
         //String userId = intent.getStringExtra(loginResult.getAccessToken().getUserId());
         //String pictureUrl = "https://graph.facebook.com/" + userId + "/picture?type=large";
-//        Profile  profile = Profile.getCurrentProfile();
-//
-//        if (profile != null) {
+        Profile  profile = Profile.getCurrentProfile();
 
+        if (profile != null) {
+            profile_pic.setProfileId(profile.getId());
+            ImageView imageView = ((ImageView)profile_pic.getChildAt(0));
 //            String userID = loginResult.getAccessToken().getUserId();
 
             //Toast.makeText(LoginActivity.this, profile.getName(), Toast.LENGTH_SHORT).show();
             //pictureUri = profile.getProfilePictureUri(120, 120).toString();
             //String userID = profile.getId();
-//            String pictureUrl = "https://graph.facebook.com/" + profile.getId() + "/picture?type=large";
-//
-//            Glide.with(NavigationActivity.this)
-//                    .load(pictureUrl)
-//                    .into(profile_pic);
+            String pictureUrl = "https://graph.facebook.com/" + profile.getId() + "/picture?type=large";
+
+            Glide.with(NavigationActivity.this)
+                    .load(pictureUrl)
+                    .into(imageView);
             //profileName.setText(profile.getName());
 
             /*mDrawer.getMenu().findItem(R.id.nav_myAccount).setVisible(false);
@@ -85,9 +97,9 @@ public class NavigationActivity extends AppCompatActivity
 
             }*/
 
-//        } else {
-//            Log.d("picture", "Profile is null");
-//        }
+        } else {
+            Log.d("picture", "Profile is null");
+        }
 
 
         //Profile profile = Profile.getCurrentProfile();
