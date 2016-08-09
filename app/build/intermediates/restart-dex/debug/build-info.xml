@@ -4,47 +4,30 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="328864242290535"
+    timestamp="337912943030633"
     token="-2292617469411586945" >
 
     <task
         name="javac"
-        duration="1288" />
+        duration="5919" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="170" />
+        duration="1697" />
     <task
         name="verifier"
-        duration="28" />
+        duration="266" />
 
     <artifact
-        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
+        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="324291912959544" >
+    <build timestamp="337912943030633" >
         <artifact
             location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="328864242290535" >
-        <artifact
-            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

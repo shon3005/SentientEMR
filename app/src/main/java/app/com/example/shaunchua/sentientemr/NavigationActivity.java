@@ -1,6 +1,5 @@
 package app.com.example.shaunchua.sentientemr;
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -29,9 +28,9 @@ public class NavigationActivity extends AppCompatActivity
     private LoginResult loginResult;
     private DrawerLayout mDrawerlayout;
     private ProfilePictureView profile_pic;
-    private ImageView profile_pic1;
-    private Drawable drawable;
-    private Drawable [] drawables = null;
+    //private ImageView profile_pic1;
+    //private Drawable drawable;
+    //private Drawable [] drawables = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,12 +100,12 @@ public class NavigationActivity extends AppCompatActivity
             }*/
 
         } else {
-            drawables = new Drawable[] {
-                    getResources().getDrawable(R.drawable.ic_menu_camera)
-            };
-            drawable = drawables[0];
-            profile_pic1 = (ImageView) findViewById(R.id.imageView);
-            profile_pic1.setImageDrawable(drawable);
+//            drawables = new Drawable[] {
+//                    getResources().getDrawable(R.drawable.ic_menu_camera)
+//            };
+//            drawable = drawables[0];
+//            profile_pic1 = (ImageView) findViewById(R.id.imageView);
+//            profile_pic1.setImageDrawable(drawable);
 
             Log.d("picture", "Profile is null");
         }
