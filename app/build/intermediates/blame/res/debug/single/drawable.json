@@ -28,12 +28,12 @@
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ic_search_api_material.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
@@ -128,6 +128,10 @@
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/ic_info_black_24dp.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/drawable/ic_info_black_24dp.xml"
+    },
+    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/messenger_button_blue_bg_selector.xml"
     },
@@ -168,12 +172,12 @@
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/drawable/ic_sync_black_24dp.xml"
     },
     {
-        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_background.xml"
-    },
-    {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.14.1/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
@@ -194,6 +198,10 @@
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/ic_sync_black_24dp.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/drawable/ic_sync_black_24dp.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
@@ -354,6 +362,10 @@
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/drawable/ic_notifications_black_24dp.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
     },
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
