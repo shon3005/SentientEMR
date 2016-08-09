@@ -65,6 +65,23 @@
             android:name="app.com.example.shaunchua.sentientemr.NavigationActivity"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="app.com.example.shaunchua.sentientemr.MessagesActivity"
+            android:label="@string/title_activity_messages"
+            android:parentActivityName="app.com.example.shaunchua.sentientemr.NavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+        </activity>
+        <activity
+            android:name="app.com.example.shaunchua.sentientemr.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="app.com.example.shaunchua.sentientemr.NavigationActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+        </activity>
     </application>
 
 </manifest>

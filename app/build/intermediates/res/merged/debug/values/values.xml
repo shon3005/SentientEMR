@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
@@ -124,13 +134,14 @@
     <declare-styleable name="CollapsingToolbarLayout_Layout"><attr name="layout_collapseMode"><enum name="none" value="0"/><enum name="pin" value="1"/><enum name="parallax" value="2"/></attr><attr format="float" name="layout_collapseParallaxMultiplier"/></declare-styleable>
     <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
-    <declare-styleable name="ConstraintLayout_Layout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="dimension" name="relativeBegin"/><attr format="dimension" name="relativeEnd"/><attr format="integer" name="relativePercent"/><attr format="integer" name="containerItemSkip"/><attr format="reference" name="layout_constraintLeft_toLeftOf"/><attr format="reference" name="layout_constraintLeft_toRightOf"/><attr format="reference" name="layout_constraintRight_toLeftOf"/><attr format="reference" name="layout_constraintRight_toRightOf"/><attr format="reference" name="layout_constraintTop_toTopOf"/><attr format="reference" name="layout_constraintTop_toBottomOf"/><attr format="reference" name="layout_constraintBottom_toTopOf"/><attr format="reference" name="layout_constraintBottom_toBottomOf"/><attr format="reference" name="layout_constraintBaseline_toBaselineOf"/><attr format="reference" name="layout_constraintCenterX_toCenterX"/><attr format="reference" name="layout_constraintCenterY_toCenterY"/><attr format="reference" name="layout_constraintStart_toEndOf"/><attr format="reference" name="layout_constraintStart_toStartOf"/><attr format="reference" name="layout_constraintEnd_toStartOf"/><attr format="reference" name="layout_constraintEnd_toEndOf"/><attr format="float" name="layout_constraintHorizontal_bias"/><attr format="float" name="layout_constraintVertical_bias"/><attr format="integer" name="layout_constraintLeft_creator"/><attr format="integer" name="layout_constraintTop_creator"/><attr format="integer" name="layout_constraintRight_creator"/><attr format="integer" name="layout_constraintBottom_creator"/><attr format="integer" name="layout_constraintBaseline_creator"/><attr format="string" name="layout_constraintDimensionRatio"/><attr format="dimension" name="layout_editor_absoluteX"/><attr format="dimension" name="layout_editor_absoluteY"/></declare-styleable>
+    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr format="dimension" name="layout_constraintGuide_begin"/><attr format="dimension" name="layout_constraintGuide_end"/><attr format="integer" name="layout_constraintGuide_Percent"/><attr format="reference|enum" name="layout_constraintLeft_toLeftOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintLeft_toRightOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintRight_toLeftOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintRight_toRightOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintTop_toTopOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintTop_toBottomOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintBottom_toTopOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintBottom_toBottomOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintCenterX_toCenterX"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintCenterY_toCenterY"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintStart_toEndOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintStart_toStartOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintEnd_toStartOf"><enum name="parent" value="0"/></attr><attr format="reference|enum" name="layout_constraintEnd_toEndOf"><enum name="parent" value="0"/></attr><attr format="float" name="layout_constraintHorizontal_bias"/><attr format="float" name="layout_constraintVertical_bias"/><attr format="integer" name="layout_constraintLeft_creator"/><attr format="integer" name="layout_constraintTop_creator"/><attr format="integer" name="layout_constraintRight_creator"/><attr format="integer" name="layout_constraintBottom_creator"/><attr format="integer" name="layout_constraintBaseline_creator"/><attr format="string" name="layout_constraintDimensionRatio"/><attr format="dimension" name="layout_editor_absoluteX"/><attr format="dimension" name="layout_editor_absoluteY"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="reference" name="statusBarBackground"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="color" name="textColorError"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize"><enum name="auto" value="-1"/><enum name="normal" value="0"/><enum name="mini" value="1"/></attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
+    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
@@ -231,6 +242,7 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -294,11 +306,12 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
     <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
     <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
     <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
@@ -386,17 +399,35 @@
     <string name="facebook_app_id">1822622171294401</string>
     <string name="fb_login_protocol_scheme">fbAPP_ID</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="large_text">
+
+    </string>
     <string name="messenger_send_button_text">Send</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_vibrate">Vibrate</string>
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password">Password</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_access_token">AccessTokenActivity</string>
+    <string name="title_activity_messages">MessagesActivity</string>
     <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_settings">Settings</string>
     <string name="title_activity_show_access_token">ShowAccessTokenActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
