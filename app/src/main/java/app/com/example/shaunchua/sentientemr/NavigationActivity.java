@@ -1,5 +1,6 @@
 package app.com.example.shaunchua.sentientemr;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -28,14 +29,15 @@ public class NavigationActivity extends AppCompatActivity
     private LoginResult loginResult;
     private DrawerLayout mDrawerlayout;
     private ProfilePictureView profile_pic;
+    private ImageView profile_pic1;
+    private Drawable drawable;
+    private Drawable [] drawables = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         FacebookSdk.sdkInitialize(getApplicationContext());
-
-
 
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -63,13 +65,14 @@ public class NavigationActivity extends AppCompatActivity
 
         View headerLayout = navigationView.getHeaderView(0);
         //View headerLayout = navigationView.inflateHeaderView(R.layout.nav_header_navigation);
-        profile_pic = (ProfilePictureView) headerLayout.findViewById(R.id.profilePicture);
+
         //Intent intent = getIntent();
         //String userId = intent.getStringExtra(loginResult.getAccessToken().getUserId());
         //String pictureUrl = "https://graph.facebook.com/" + userId + "/picture?type=large";
         Profile  profile = Profile.getCurrentProfile();
 
         if (profile != null) {
+            profile_pic = (ProfilePictureView) headerLayout.findViewById(R.id.profilePicture);
             profile_pic.setProfileId(profile.getId());
             ImageView imageView = ((ImageView)profile_pic.getChildAt(0));
 //            String userID = loginResult.getAccessToken().getUserId();
@@ -98,6 +101,13 @@ public class NavigationActivity extends AppCompatActivity
             }*/
 
         } else {
+            drawables = new Drawable[] {
+                    getResources().getDrawable(R.drawable.ic_menu_camera)
+            };
+            drawable = drawables[0];
+            profile_pic1 = (ImageView) findViewById(R.id.imageView);
+            profile_pic1.setImageDrawable(drawable);
+
             Log.d("picture", "Profile is null");
         }
 
