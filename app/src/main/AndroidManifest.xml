@@ -76,6 +76,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
         </activity>
+        <activity
+            android:name=".TestResultsActivity"
+            android:label="@string/title_activity_test_results"
+            android:parentActivityName=".NavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+        </activity>
+        <activity
+            android:name=".MedicalHistoryActivity"
+            android:label="@string/title_activity_medical_history"
+            android:parentActivityName=".NavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+        </activity>
+        <activity
+            android:name=".DoctorsActivity"
+            android:label="@string/title_activity_doctors"
+            android:parentActivityName=".NavigationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_doctors.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_doctors.xml"
+    },
+    {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_messages.xml",
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/menu/menu_messages.xml"
     },
@@ -8,12 +16,28 @@
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/menu/activity_navigation_drawer.xml"
     },
     {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_messages.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_messages.xml"
+    },
+    {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/menu/navigation.xml",
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/menu/navigation.xml"
     },
     {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_test_results.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_test_results.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_medical_history.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_medical_history.xml"
+    },
+    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/activity_navigation_drawer.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/activity_navigation_drawer.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/navigation.xml",
@@ -26,5 +50,13 @@
     {
         "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_messages.xml",
+        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_messages.xml"
     }
 ]
