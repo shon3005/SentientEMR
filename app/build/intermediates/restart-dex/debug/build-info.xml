@@ -4,30 +4,35 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="337912943030633"
+    timestamp="444374898224423"
     token="-2292617469411586945" >
 
     <task
         name="javac"
-        duration="5919" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1697" />
+        duration="0" />
     <task
         name="verifier"
-        duration="266" />
+        duration="0" />
 
     <artifact
-        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
-    <build timestamp="337912943030633" >
+    <build timestamp="443181874248207" >
         <artifact
             location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="444374898224423" >
+        <artifact
+            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

@@ -29,6 +29,8 @@ public class NavigationActivity extends AppCompatActivity
     private LoginResult loginResult;
     private DrawerLayout mDrawerlayout;
     private ProfilePictureView profile_pic;
+    private PrefUtil prefUtil;
+    private IntentUtil intentUtil;
     //private ImageView profile_pic1;
     //private Drawable drawable;
     //private Drawable [] drawables = null;
@@ -51,6 +53,14 @@ public class NavigationActivity extends AppCompatActivity
 //                        .setAction("Action", null).show();
 //            }
 //        });
+
+        //prefUtil = new PrefUtil(this);
+        //intentUtil = new IntentUtil(this);
+
+        //String accessToken = loginResult.getAccessToken().getToken();
+
+        // save accessToken to SharedPreference
+        //prefUtil.saveAccessToken(accessToken);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
@@ -163,6 +173,12 @@ public class NavigationActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        switch (id) {
+            case R.id.action_show_access_token:
+                intentUtil.showAccessToken();
+                break;
+        }
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
@@ -170,6 +186,7 @@ public class NavigationActivity extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
