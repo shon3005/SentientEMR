@@ -8,7 +8,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -108,7 +107,7 @@ public class NavigationActivity extends AppCompatActivity
 //            profile_pic1 = (ImageView) findViewById(R.id.imageView);
 //            profile_pic1.setImageDrawable(drawable);
 
-            Log.d("picture", "Profile is null");
+            
         }
 
 

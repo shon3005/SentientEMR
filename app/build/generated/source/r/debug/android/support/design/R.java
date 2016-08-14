@@ -680,17 +680,10 @@ public final class R {
 		public static final int fixed = 0x7f0e003c;
 		public static final int home = 0x7f0e0004;
 		public static final int homeAsUp = 0x7f0e000f;
-<<<<<<< HEAD
-		public static final int icon = 0x7f0e0051;
-		public static final int ifRoom = 0x7f0e0038;
-		public static final int image = 0x7f0e004e;
-		public static final int info = 0x7f0e0085;
-=======
 		public static final int icon = 0x7f0e0052;
 		public static final int ifRoom = 0x7f0e0039;
 		public static final int image = 0x7f0e004f;
-		public static final int info = 0x7f0e0082;
->>>>>>> origin/master
+		public static final int info = 0x7f0e0086;
 		public static final int item_touch_helper_previous_elevation = 0x7f0e0005;
 		public static final int left = 0x7f0e0027;
 		public static final int line1 = 0x7f0e00a9;

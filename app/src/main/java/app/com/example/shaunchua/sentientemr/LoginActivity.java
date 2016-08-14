@@ -132,21 +132,25 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         callbackManager = CallbackManager.Factory.create();
 
 
-
         prefUtil = new PrefUtil(this);
         intentUtil = new IntentUtil(this);
 
         info = (TextView) findViewById(R.id.info);
         profileImgView = (ImageView) findViewById(R.id.profile_img);
         loginButton = (LoginButton) findViewById(R.id.login_button);
+        Profile  profile = Profile.getCurrentProfile();
+        if (profile != null) {
+            Intent intent = new Intent(this,NavigationActivity.class);
+            //intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            finish();
+            startActivity(intent);
+        } //else {
+////            Intent intent = new Intent(this,LoginActivity.class);
+////            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+////            finish();
+////            startActivity(intent);
+//        }
 
-//        loginButton.setOnClickListener(new OnClickListener(){
-//            public void onClick(View v){
-//                Intent i = new Intent(LoginActivity.this, NavigationActivity.class);
-//                //i.putExtra("id", userId);
-//                startActivity(i);
-//            }
-//        });
 
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override

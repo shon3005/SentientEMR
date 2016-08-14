@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
-        "source": "/Users/Jasleen/Desktop/Sentient Electronics/SentientEMR/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/Jasleen/Desktop/SentientEMR/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
-        "source": "/Users/Jasleen/Desktop/SentientEMR/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

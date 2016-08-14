@@ -533,21 +533,12 @@ public final class R {
 		public static final int expanded_menu = 0x7f0e0061;
 		public static final int home = 0x7f0e0004;
 		public static final int homeAsUp = 0x7f0e000f;
-<<<<<<< HEAD
-		public static final int icon = 0x7f0e0051;
-		public static final int ifRoom = 0x7f0e0038;
-		public static final int image = 0x7f0e004e;
-		public static final int info = 0x7f0e0085;
-		public static final int line1 = 0x7f0e00a8;
-		public static final int line3 = 0x7f0e00ac;
-=======
 		public static final int icon = 0x7f0e0052;
 		public static final int ifRoom = 0x7f0e0039;
 		public static final int image = 0x7f0e004f;
-		public static final int info = 0x7f0e0082;
+		public static final int info = 0x7f0e0086;
 		public static final int line1 = 0x7f0e00a9;
 		public static final int line3 = 0x7f0e00ad;
->>>>>>> origin/master
 		public static final int listMode = 0x7f0e000b;
 		public static final int list_item = 0x7f0e0051;
 		public static final int media_actions = 0x7f0e00a7;
