@@ -107,7 +107,7 @@ public class NavigationActivity extends AppCompatActivity
 //            profile_pic1 = (ImageView) findViewById(R.id.imageView);
 //            profile_pic1.setImageDrawable(drawable);
 
-            
+
         }
 
 

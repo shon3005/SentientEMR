@@ -24,27 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.41253263">
               <folding>
-                <element signature="e#8846#8875#0" expanded="true" />
-                <element signature="e#10759#10801#0" expanded="true" />
-                <element signature="e#10997#11037#0" expanded="true" />
-                <element signature="e#11178#11217#0" expanded="true" />
-                <element signature="e#17284#17328#0" expanded="true" />
+                <element signature="e#8827#8856#0" expanded="true" />
+                <element signature="e#10740#10782#0" expanded="true" />
+                <element signature="e#10978#11018#0" expanded="true" />
+                <element signature="e#11159#11198#0" expanded="true" />
+                <element signature="e#17265#17309#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigationActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NavigationActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/NavigationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7049608">
-              <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1712,8 +1711,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/NavigationActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/LoginActivity.java" />
       </list>
     </option>
   </component>
@@ -2021,25 +2020,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/NavigationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="e#8846#8875#0" expanded="true" />
-            <element signature="e#10759#10801#0" expanded="true" />
-            <element signature="e#10997#11037#0" expanded="true" />
-            <element signature="e#11178#11217#0" expanded="true" />
-            <element signature="e#17284#17328#0" expanded="true" />
-          </folding>
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/NavigationActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/app/com/example/shaunchua/sentientemr/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7049608">
-          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="0.41253263">
+          <caret line="161" column="18" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
+          <folding>
+            <element signature="e#8827#8856#0" expanded="true" />
+            <element signature="e#10740#10782#0" expanded="true" />
+            <element signature="e#10978#11018#0" expanded="true" />
+            <element signature="e#11159#11198#0" expanded="true" />
+            <element signature="e#17265#17309#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

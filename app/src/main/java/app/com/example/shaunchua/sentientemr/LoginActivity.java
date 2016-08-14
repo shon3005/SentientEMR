@@ -31,7 +31,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;
 import com.facebook.CallbackManager;
@@ -160,18 +159,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 info.setText(message(profile));
 
                 userId = loginResult.getAccessToken().getUserId();
-                Log.d("picture", userId);
+                //Log.d("picture", userId);
                 String accessToken = loginResult.getAccessToken().getToken();
 
                 // save accessToken to SharedPreference
                 prefUtil.saveAccessToken(accessToken);
 
-                String profileImgUrl = "https://graph.facebook.com/" + userId + "/picture?type=large";
-                Log.d("picture", profileImgUrl.toString());
-
-                Glide.with(LoginActivity.this)
-                        .load(profileImgUrl)
-                        .into(profileImgView);
+//                String profileImgUrl = "https://graph.facebook.com/" + userId + "/picture?type=large";
+//                Log.d("picture", profileImgUrl.toString());
+//
+//                Glide.with(LoginActivity.this)
+//                        .load(profileImgUrl)
+//                        .into(profileImgView);
 
                 Intent i = new Intent(LoginActivity.this, NavigationActivity.class);
 //                //i.putExtra("id", userId);
