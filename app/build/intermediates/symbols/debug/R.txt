@@ -775,8 +775,8 @@ int id action_menu_presenter 0x7f0e0003
 int id action_mode_bar 0x7f0e0068
 int id action_mode_bar_stub 0x7f0e0067
 int id action_mode_close_button 0x7f0e004c
-int id action_settings 0x7f0e00b6
-int id action_show_access_token 0x7f0e00b7
+int id action_settings 0x7f0e00b7
+int id action_show_access_token 0x7f0e00b8
 int id activity_chooser_view_content 0x7f0e004d
 int id add 0x7f0e001a
 int id alertTitle 0x7f0e0059
@@ -865,6 +865,7 @@ int id mini 0x7f0e0034
 int id multiply 0x7f0e001b
 int id nav_camera 0x7f0e00b0
 int id nav_gallery 0x7f0e00b1
+int id nav_logout 0x7f0e00b6
 int id nav_manage 0x7f0e00b5
 int id nav_send 0x7f0e00b4
 int id nav_share 0x7f0e00b3

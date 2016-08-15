@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.facebook.FacebookSdk;
 import com.facebook.Profile;
+import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.ProfilePictureView;
 
@@ -197,6 +198,12 @@ public class NavigationActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {//messages
             Intent i = new Intent(NavigationActivity.this, MessagesActivity.class);
             startActivity(i);
+
+        } else if (id == R.id.nav_logout) {//log out
+            LoginManager.getInstance().logOut();
+            Intent i = new Intent(NavigationActivity.this, LoginActivity.class);
+            startActivity(i);
+            //this.finish();
 
         }
 
