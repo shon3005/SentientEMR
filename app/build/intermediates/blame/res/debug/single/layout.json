@@ -20,12 +20,12 @@
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_doctors.xml",
-        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_doctors.xml"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_messages.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_messages.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_doctors.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_doctors.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
@@ -70,6 +70,10 @@
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/list_item_messages.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/list_item_messages.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
@@ -150,6 +154,10 @@
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/fragment_messages.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/fragment_messages.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
