@@ -20,12 +20,12 @@
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/exploded-aar/com.android.support/design/24.1.1/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_messages.xml",
-        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_messages.xml"
-    },
-    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_doctors.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_doctors.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_messages.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_messages.xml"
     },
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
