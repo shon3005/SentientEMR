@@ -4,44 +4,35 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="642834549465806"
-    token="-2292617469411586945"
-    verifier="R_CLASS_CHANGE" >
+    timestamp="643514244864530"
+    token="-2292617469411586945" >
 
     <task
         name="javac"
-        duration="666" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="237" />
+        duration="0" />
     <task
         name="verifier"
-        duration="33" />
+        duration="0" />
 
     <artifact
         location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/resources-debug.ap_"
         type="RESOURCES" />
-    <artifact
-        location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
 
-    <build timestamp="642702877208467" >
+    <build timestamp="643388990171731" >
         <artifact
             location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="642834549465806"
-        verifier="R_CLASS_CHANGE" >
+    <build timestamp="643514244864530" >
         <artifact
             location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
-        <artifact
-            location="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>
