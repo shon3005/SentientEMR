@@ -374,7 +374,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b>&lt;br />on your smartphone or computer&lt;br />and enter this code</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> on your smartphone or computer and enter this code</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
     <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
@@ -424,7 +424,7 @@
     <string name="prompt_password">Password</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_access_token">AccessTokenActivity</string>
-    <string name="title_activity_doctors">DoctorsActivity</string>
+    <string name="title_activity_doctors">PatientsActivity</string>
     <string name="title_activity_medical_history">MedicalHistoryActivity</string>
     <string name="title_activity_messages">MessagesActivity</string>
     <string name="title_activity_navigation">NavigationActivity</string>

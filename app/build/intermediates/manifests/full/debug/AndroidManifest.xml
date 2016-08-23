@@ -85,7 +85,7 @@
         <activity
             android:name="app.com.example.shaunchua.sentientemr.TestResultsActivity"
             android:label="@string/title_activity_test_results"
-            android:parentActivityName="app.com.example.shaunchua.sentientemr.NavigationActivity"
+            android:parentActivityName="app.com.example.shaunchua.sentientemr.PatientsActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -94,14 +94,14 @@
         <activity
             android:name="app.com.example.shaunchua.sentientemr.MedicalHistoryActivity"
             android:label="@string/title_activity_medical_history"
-            android:parentActivityName="app.com.example.shaunchua.sentientemr.NavigationActivity"
+            android:parentActivityName="app.com.example.shaunchua.sentientemr.PatientsActivity"
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
         </activity>
         <activity
-            android:name="app.com.example.shaunchua.sentientemr.DoctorsActivity"
+            android:name="app.com.example.shaunchua.sentientemr.PatientsActivity"
             android:label="@string/title_activity_doctors"
             android:parentActivityName="app.com.example.shaunchua.sentientemr.NavigationActivity"
             android:theme="@style/AppTheme.NoActionBar" >
@@ -109,6 +109,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
         </activity>
+        <activity android:name="com.facebook.CustomTabMainActivity" />
     </application>
 
 </manifest>

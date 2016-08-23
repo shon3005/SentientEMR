@@ -9,15 +9,7 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="My Doctors" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Test Results" />
-        <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/ic_menu_share"
-            android:title="Medical History" />
+            android:title="My Patients" />
         <item
             android:id="@+id/nav_send"
             android:icon="@drawable/ic_menu_send"

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_patients.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_patients.xml"
+    },
+    {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_messages.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_messages.xml"
     },
@@ -22,9 +26,5 @@
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_medical_history.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_medical_history.xml"
-    },
-    {
-        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/menu/menu_doctors.xml",
-        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/menu/menu_doctors.xml"
     }
 ]

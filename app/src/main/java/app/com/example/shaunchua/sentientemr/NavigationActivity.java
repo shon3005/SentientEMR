@@ -179,21 +179,21 @@ public class NavigationActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {//home
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {//my doctors
-            Intent i = new Intent(NavigationActivity.this, DoctorsActivity.class);
+        } else if (id == R.id.nav_gallery) {//my patients
+            Intent i = new Intent(NavigationActivity.this, PatientsActivity.class);
             startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {//test results
-            Intent i = new Intent(NavigationActivity.this, TestResultsActivity.class);
-            startActivity(i);
+//        } else if (id == R.id.nav_slideshow) {//test results
+//            Intent i = new Intent(NavigationActivity.this, TestResultsActivity.class);
+//            startActivity(i);
 
         } else if (id == R.id.nav_manage) {//settings
             Intent i = new Intent(NavigationActivity.this, SettingsActivity.class);
             startActivity(i);
 
-        } else if (id == R.id.nav_share) {//medical history
-            Intent i = new Intent(NavigationActivity.this, MedicalHistoryActivity.class);
-            startActivity(i);
+//        } else if (id == R.id.nav_share) {//medical history
+//            Intent i = new Intent(NavigationActivity.this, MedicalHistoryActivity.class);
+//            startActivity(i);
 
         } else if (id == R.id.nav_send) {//messages
             Intent i = new Intent(NavigationActivity.this, MessagesActivity.class);
