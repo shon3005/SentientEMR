@@ -1,5 +1,6 @@
 package app.com.example.shaunchua.sentientemr;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -55,8 +57,8 @@ public class PatientsActivity extends AppCompatActivity {
 
             // Create some dummy data for the ListView.  Here's a sample weekly forecast
             String[] data = {
-                    "Mon 6/23 - Sunny - 31/17",
-                    "Tue 6/24 - Foggy - 21/8"
+                    "Test Results",
+                    "Medical History"
             };
             List<String> weekForecast = new ArrayList<String>(Arrays.asList(data));
 
@@ -76,6 +78,21 @@ public class PatientsActivity extends AppCompatActivity {
             // Get a reference to the ListView, and attach this adapter to it.
             ListView listView = (ListView) rootView.findViewById(R.id.listview_messages);
             listView.setAdapter(mForecastAdapter);
+
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                    String forecast = mForecastAdapter.getItem(position);
+                    if (position == 0) {
+                        Intent intent = new Intent(getActivity(), TestResultsActivity.class);
+                        startActivity(intent);
+                    } else {
+                        Intent intent = new Intent(getActivity(), MedicalHistoryActivity.class);
+                        startActivity(intent);
+                    }
+                }
+            });
 
             return rootView;
         }
