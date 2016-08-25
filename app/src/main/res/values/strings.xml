@@ -72,4 +72,5 @@
     <string name="title_activity_test_results">TestResultsActivity</string>
     <string name="title_activity_medical_history">MedicalHistoryActivity</string>
     <string name="title_activity_doctors">PatientsActivity</string>
+    <string name="title_activity_message_detail">MessageDetailActivity</string>
 </resources>

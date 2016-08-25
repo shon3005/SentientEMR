@@ -83,7 +83,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+                android:value="app.com.example.shaunchua.sentientemr.PatientsActivity" />
         </activity>
         <activity
             android:name=".MedicalHistoryActivity"
@@ -92,7 +92,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+                android:value="app.com.example.shaunchua.sentientemr.PatientsActivity" />
         </activity>
         <activity
             android:name=".PatientsActivity"
@@ -102,6 +102,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="app.com.example.shaunchua.sentientemr.NavigationActivity" />
+        </activity>
+        <activity
+            android:name=".MessageDetailActivity"
+            android:label="@string/title_activity_message_detail"
+            android:parentActivityName=".MessagesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.com.example.shaunchua.sentientemr.MessagesActivity" />
         </activity>
     </application>
 

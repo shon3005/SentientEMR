@@ -426,6 +426,7 @@
     <string name="title_activity_access_token">AccessTokenActivity</string>
     <string name="title_activity_doctors">PatientsActivity</string>
     <string name="title_activity_medical_history">MedicalHistoryActivity</string>
+    <string name="title_activity_message_detail">MessageDetailActivity</string>
     <string name="title_activity_messages">MessagesActivity</string>
     <string name="title_activity_navigation">NavigationActivity</string>
     <string name="title_activity_settings">Settings</string>
