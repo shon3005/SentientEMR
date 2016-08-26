@@ -117,7 +117,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="app.com.example.shaunchua.sentientemr.MessagesActivity" />
+                android:value="MessagesActivity" />
         </activity>
         <activity android:name="com.facebook.CustomTabMainActivity" />
     </application>
