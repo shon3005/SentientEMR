@@ -23,12 +23,32 @@
 
     <include layout="@layout/content_message_detail" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+    <!--<EditText-->
+        <!--android:id="@+id/etMessage"-->
+        <!--android:layout_toLeftOf="@+id/btSend"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@+id/btSend"-->
+        <!--android:gravity="top"-->
+        <!--android:hint="@string/message_hint"-->
+        <!--android:imeOptions="actionSend"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btSend"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical|right"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:text="@string/send"-->
+        <!--android:textSize="18sp" >-->
+    <!--</Button>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:src="@android:drawable/ic_dialog_email" />-->
 
 </android.support.design.widget.CoordinatorLayout>

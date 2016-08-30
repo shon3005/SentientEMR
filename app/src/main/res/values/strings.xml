@@ -73,4 +73,8 @@
     <string name="title_activity_medical_history">MedicalHistoryActivity</string>
     <string name="title_activity_doctors">PatientsActivity</string>
     <string name="title_activity_message_detail">MessageDetailActivity</string>
+    <string name="send">send</string>
+    <string name="message_hint">message_hint</string>
+    <string name="profile_other">profile_other</string>
+    <string name="profile_me">profile_me</string>
 </resources>

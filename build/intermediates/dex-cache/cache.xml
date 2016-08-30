@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="58f191631c6eacd21c7a30454af12e5d6c9d98a1">
+        <dex dex="/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_26525e09b0a6afb4b92b9e99efcf087d8150de50/classes.dex" />
+    </item>
+
+</items>

@@ -318,5 +318,9 @@
     {
         "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/activity_access_token.xml",
         "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/activity_access_token.xml"
+    },
+    {
+        "merged": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/build/intermediates/res/merged/debug/layout/chat_item.xml",
+        "source": "/Users/shaunchua/Documents/Professional Work/Sentient Electronics/SentientEMR/app/src/main/res/layout/chat_item.xml"
     }
 ]
